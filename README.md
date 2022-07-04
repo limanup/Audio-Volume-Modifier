@@ -5,7 +5,7 @@ A program to modify the volume of WAV (audio type) files with a multiplier.
 To use the program to modify the volume, follow the syntax below:
 
 ```
-$ ./volume INPUT.wav OUTPUT.wav 2.0
+./volume INPUT.wav OUTPUT.wav 2.0
 ```
 
 Where `./volume` is the compiled C program, `INPUT.wav` is the name of an original audio file and `OUTPUT.wav` is the name of an audio file with a volume that has been scaled by the given multiplier (e.g., 2.0).
